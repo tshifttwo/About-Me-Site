@@ -1,3 +1,6 @@
+
+
+
 h1 {
   font-family: "Open-Sans", "Helvetica Neue", sans-serif;
   font-weight: 100;
@@ -10,7 +13,6 @@ h1 {
         font-size: 70px;
     }
 }
-
 
 
 h2 {
@@ -49,6 +51,7 @@ p {
         font-size: 16px;
     }
 }
+
 
 
 .likes-copy {
@@ -98,9 +101,9 @@ p {
    .scroll-cue {
         margin-top:-35px;
     }
-
-
 }
+
+
 .down-arrow {
   display: block;
   margin-left: auto;
@@ -110,11 +113,12 @@ p {
 }
 
 
-
 @media only screen and (max-width: 500px) {
    .down-arrow {
         margin-top:-35px;
     }
+}
+
 
 .location h1 {
   clear: both;
@@ -128,7 +132,7 @@ p {
         padding:1em;
         margin:auto;
     }
-
+}
 
 
 .livework {
@@ -153,8 +157,7 @@ p {
   margin-bottom: 100px;
 }
 
-
-    @media only screen and (max-width: 500px) {
+ @media only screen and (max-width: 500px) {
    .nyc {
         width: 300px;
         height:300px;
@@ -164,7 +167,7 @@ p {
         padding:1em;
         float:none;
     }
-
+  }
 
 
 .about-me {
@@ -181,7 +184,7 @@ p {
   margin-bottom: 100px;
 }
 
-    @media only screen and (max-width: 500px) {
+     @media only screen and (max-width: 500px) {
    .about-me {
         width: 80%;
         height: auto;
@@ -193,6 +196,7 @@ p {
         text-align:center;
         border-width: 2px;
     }
+  }
 
 
 .likes {
@@ -210,40 +214,23 @@ p {
         height:auto;
         margin:1em;
     }
+  }
 
 .likes h1 {
+  clear:both;
   padding-top: 80px;
   padding-left: 114px;
   text-align: left;
 }
 
-@media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 500px) {
    .likes h1 {
         width: 90%;
         font-size:40px;
         padding:1em;
         margin:auto;
     }
-
-.likes-rnd-img {
-  max-width: 100%;
-  height: auto;
-  width: auto;
-  border-radius: 100%
-}
-
-@media only screen and (max-width: 500px) {
-   .likes-rnd-img {
-        max-width: 80%;
-        max-height:110px;
-        border-radius:100%;
-        margin-top:-4em;
-        padding-top:0;
-        margin-left:auto;
-        margin-right:auto;
-    }
-
-
+  }
 
 .likes ul li {
   display: inline-block;
@@ -266,6 +253,7 @@ p {
         padding-top:0;
         margin-top:0;
     }
+  }
 
 .likes img {
   width: 450px;
@@ -282,7 +270,24 @@ p {
   margin-right: auto;
 }
 
+.likes-rnd-img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  border-radius: 100%
+}
 
+@media only screen and (max-width: 500px) {
+   .likes-rnd-img {
+        max-width: 80%;
+        max-height:110px;
+        border-radius:100%;
+        margin-top:-4em;
+        padding-top:0;
+        margin-left:auto;
+        margin-right:auto;
+    }
+  }
 
 .footer {
   text-align: center;
